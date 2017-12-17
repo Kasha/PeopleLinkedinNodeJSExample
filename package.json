@@ -1,0 +1,16 @@
+{
+  "name": "people_linkedin",
+  "version": "1.0.0",
+  "description": "Utility that finds the minimal level of relation between two persons.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Liad Kashanovsky",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}

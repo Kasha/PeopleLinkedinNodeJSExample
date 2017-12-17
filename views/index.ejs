@@ -1,0 +1,28 @@
+<html>
+    <head> 
+    <title> Find a Relation </title>
+     <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
+     <link href="/styles.css" rel="stylesheet">
+    </head>
+    
+    <body>
+    <div class="container">
+        
+  
+    <ul>
+            <% for( var i = 0; i < persons.length; i++){ %>    
+    <% for( var i1 = 0; i1 < persons.length; i1++){ %>
+        <li> <%= persons[i].getFullName() + " " + persons[i].getAddress() %> </li>
+        <li> <%= persons[i].getFullName() + " " + persons[i1].getFullName()  + " Relation Degree:"+personUtility.FindMinRelationLevel(persons[i], persons[i1]) %> </li>
+        <li>____________________________________________________________________________________________________</li>
+    <% } %>
+    <% } %>
+    </ul>
+    
+    
+   
+   
+    </div>
+    
+    </body>
+    </html>
